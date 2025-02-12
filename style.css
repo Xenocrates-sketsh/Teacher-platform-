@@ -1,0 +1,43 @@
+:root {
+    --primary: #2A9D8F; /* Teacher-themed teal */
+    --bg: #fff;
+    --text: #333;
+}
+
+.dark-mode {
+    --primary: #264653;
+    --bg: #2A2A2A;
+    --text: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.lesson-card {
+    background: rgba(0,0,0,0.05);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+#teacherPanel {
+    background: rgba(42, 157, 143, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
